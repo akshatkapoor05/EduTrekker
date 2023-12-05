@@ -1,0 +1,102 @@
+.home__home_parent{
+    width: 100%;
+    background: url('../img/home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 10%;
+}
+@media(max-width:700px){
+    .home__welcome p{
+        text-align: justify;
+    }
+    .home__welcome{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5%;
+        padding: 2%;
+        background-color: rgb(0, 0, 0, 0.4);
+        color: white;
+        border-radius: 10px;
+    }
+
+    .home__welcome button{
+        width: 50%;
+        padding: 4%;
+        border: none;
+        border-radius: 20px;
+        background-color: rgb(80, 53, 36);
+        font-size: 3vh;
+        color: white;
+    }
+    
+    .home__welcome button:hover{
+        transition: 0.5s;
+        opacity: 0.9;
+        cursor: pointer;
+    }
+    
+    .home__welcome button:active{
+        transition: 0;
+        opacity: 0.5;
+    }
+    .home__welcome h1{
+        font-size: 8vh;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media(min-width:700px){
+    .home__welcome p{
+        text-align: justify;
+    }
+    .home__welcome{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5%;
+        padding: 2%;
+        background-color: rgb(0, 0, 0, 0.4);
+        color: white;
+        border-radius: 10px;
+    }
+
+    .home__welcome button{
+        width: 20%;
+        padding: 2%;
+        border: none;
+        border-radius: 20px;
+        background-color: rgb(80, 53, 36);
+        font-size: 2vh;
+        color: white;
+    }
+    
+    .home__welcome button:hover{
+        transition: 0.5s;
+        opacity: 0.9;
+        cursor: pointer;
+    }
+    
+    .home__welcome button:active{
+        transition: 0;
+        opacity: 0.5;
+    }
+    .home__welcome h1{
+        font-size: 12vh;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+
+

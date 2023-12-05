@@ -1,0 +1,115 @@
+.courses__parent{
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+.courses__courses{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.courses__description{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media(max-width:700px){
+    .courses__cards{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1%;
+        margin: 0.5%;
+        border:1px solid rgba(0, 0, 0 , 0.4);
+        border-radius: 10px;
+        background-color: rgb(232, 233, 234);
+        margin: 3%;
+    }
+    .courses__cards h2{
+        text-align: center;
+        margin-top: 1%;
+    }
+    
+    .courses__cards h1{
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 0;
+    }
+    
+    .courses__cards p{
+        text-align: justify;
+    }
+}
+
+@media(min-width:700px){
+    .courses__cards{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1%;
+        margin: 0.5%;
+        border:1px solid rgba(0, 0, 0 , 0.4);
+        border-radius: 10px;
+        background-color: rgb(232, 233, 234);
+    }
+    .courses__cards h2{
+        text-align: center;
+        margin-top: 1%;
+    }
+    
+    .courses__cards h1{
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 0;
+    }
+    
+    .courses__cards p{
+        text-align: justify;
+    }
+}
+
+
+
+
+
+.courses__cards button{
+    width: 50%;
+    padding: 2%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(80, 53, 36);
+    font-size: 2vh;
+    color: white;
+}
+
+.courses__cards button:hover{
+    transition: 0.5s;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.courses__cards button:active{
+    transition: 0;
+    opacity: 0.5;
+}
+
+.courses__cards:hover{
+    transition: 0.2s ease-in, 0.2s ease-in;
+    transform: scale(0.987);
+    cursor: pointer;
+}
+
+.courses__img{
+    width: 50%;
+    object-fit: contain;
+}
