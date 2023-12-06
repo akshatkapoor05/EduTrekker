@@ -1,6 +1,7 @@
 .courses__parent{
     width: 100%;
     padding-bottom: 2%;
+    background-color: aliceblue;
 }
 
 .courses__courses{
@@ -32,6 +33,12 @@
         border-radius: 10px;
         background-color: rgb(232, 233, 234);
         margin: 3%;
+        background: rgba( 240, 223, 223, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
     .courses__cards h2{
         text-align: center;
@@ -61,6 +68,12 @@
         border:1px solid rgba(0, 0, 0 , 0.4);
         border-radius: 10px;
         background-color: rgb(232, 233, 234);
+        background: rgba( 240, 223, 223, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
     .courses__cards h2{
         text-align: center;

@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Team from './components/Team';
-
+// import Footerteam from  './components/footerteam';
 function App() {
   return (
    <>
@@ -13,7 +13,8 @@ function App() {
    <Home/>
    <AboutUs/>
    <Courses/>
-   <Team/>
+<Team/>
+   {/* <Footerteam/> */}
 
    <Footer/>
    </>
